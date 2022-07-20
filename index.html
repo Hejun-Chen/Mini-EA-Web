@@ -1,0 +1,140 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EisnerAmper Mini Web</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">EA Solitions</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>World Class Audit, Tax, Advisory Services</h1>
+            <p>EisnerAmper is one of the largest accounting firms providing audit, tax, business advisory <br> and consulting services in the U.S</p>
+            <a href="contact.html" class="hero-btn">Visit Our Office in New York</a>
+        </div>
+    </section>
+
+<!---------- course ----------->
+
+    <section class="service">
+        <h1>Services We Offer</h1>
+        <p>EisnerAmper offers world class services in these fileds.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Tax</h3>
+                <p class="service_description">Tax services include tax preparation, advocacy and advisory services; with tax practice groups for corporations; individual and family; estates, trusts and private foundations; international tax services; state and local tax; tax controversy and advocacy; and specialized business tax information.</p>
+            </div>
+            <div class="course-col">
+                <h3>Audit</h3>
+                <p class="service_description">Audit and accounting is comprised of audit and assurance, compliance and regulatory, employee benefit plans, outsourced finance and accounting, private business accounting, and royalty audit and contract compliance.</p>
+            </div>
+            <div class="course-col">
+                <h3>Advisory</h3>
+                <p class="service_description">Advisory services include corporate finance, employee benefit plans, federal government contracting, forensic litigation and valuation, bankruptcy and restructuring, digital, center for family business excellence, center for individual and organizational performance, center for transformation, transaction advisory, and technical accounting advisory.</p>
+            </div>
+        </div>
+    </section>
+
+<!---------- campus ---------->
+
+    <section class="office">
+        <h1>Our Offices</h1>
+        <p>These are our offices.</p>
+            <div class="row">
+                <div class="office-col">
+                    <img src="images/newyork.png">
+                    <div class="layer">
+                        <h3>NEW YORK</h3>
+                    </div>
+                </div>
+                <div class="office-col">
+                    <img src="images/phil.png">
+                    <div class="layer">
+                        <h3>PHILADELPHIA</h3>
+                    </div>
+                </div>
+                <div class="office-col">
+                    <img src="images/cali.png">
+                    <div class="layer">
+                        <h3>CALIFORNIA</h3>
+                    </div>
+                </div>
+
+            </div>
+    </section>
+
+
+<!---------- testimonials ---------->
+
+    <section class="testimonials">
+        <h1>What Our Employee Says</h1>
+        <p>Let's hear about what our employee says about EA!</p>
+            <div class="row">
+                <div class="testimonial-col">
+                    <img src="images/user1.jpg">
+                    <div>
+                        <p>Our CEO’s perspective of the company and its people is admirable. From community support to cultural celebrations to allowances, they do it and not just say it. This firm continues to innovative, understanding the importance of ever-changing technology and looking ahead.</p>
+                        <h3>BHUMIKA BABBAR</h3>
+                        <h5><i>Senior Developer ETI, India</i></h5>
+                    </div>
+                </div>
+                <div class="testimonial-col">
+                    <img src="images/user2.jpg">
+                    <div>
+                        <p>EisnerAmper provided me the time, resources and even paid for costs associated with the exam. This was a tremendous help. I joined a firm with a phenomenal culture, strong mentorship program, endless personal development opportunities and most importantly, colleagues I now call friends.</p>
+                        <h3>Brandon Ventura</h3>
+                        <h5><i>Senior, New Jersey</i></h5>
+                    </div>
+                </div>
+
+            </div>
+    </section>
+
+<!-------- footer ---------->
+
+<section class="footer">
+        <h4>About Us</h4>
+        <p>EisnerAmper is one of the largest accounting firms providing audit, tax, business advisory and consulting services in the U.S.</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/EisnerAmper/"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/eisneramper"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/eisneramper_on_campus/"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/eisneramper/mycompany/"><i class="fa fa-linkedin"></i></a>
+
+        </div>
+        <a class="footer-link"><p>made by Hejun Chen with Easy Tutorials</p></a>
+</section>
+
+
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
